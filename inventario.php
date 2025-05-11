@@ -1417,7 +1417,7 @@ MODAL AGREGAR STOCK
 
                 <!-- ENTRADA PARA EL PRECIO DE COMPRA-->            
                 <div class="form-group">
-                  Precio de compra individual:
+                  Precio de venta individual CON IVA:
                   <div class="input-group mb-3">
                     <div class="input-group-prepend">
                       <span class="input-group-text" id="basic-addon1"><i class="fa fa-usd"></i></span>
@@ -1427,7 +1427,7 @@ MODAL AGREGAR STOCK
 
                 </div>
 
-                <div class="row">
+                <div class="row" hidden>
 
                   <div class="col-xl-6 col-xs-12">
                       <!-- ENTRADA PARA EL MARGEN DE GANANCIA EN PORCENTAJE-->
@@ -1461,7 +1461,7 @@ MODAL AGREGAR STOCK
 
             <!-- ENTRADA PARA EL PRECIO DE VENTA -->            
             <div class="form-group">
-                Precio de venta:
+                Precio de venta SIN IVA:
                 <div style="color:red">Nota: este nuevo precio se aplicara al producto en general, si el cambio es muy grande espera a que todas las existencias del producto actual se hayan agotado o realiza un descuento en
                   facturación hasta agotar existencias
                 </div>

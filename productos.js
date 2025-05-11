@@ -484,8 +484,8 @@ $("#nuevaGananciaProductoMonto1").on("input", function() {
 function calcularGanancia2() {
     let compra = parseFloat($("#nuevoPrecioCompraProducto1").val()) || 0;
     let monto = parseFloat($("#nuevaGananciaProductoMonto1").val()) || 0;
-    let total = compra+monto;
-	let redondeado = total.toFixed(2);
+    let total = compra/1.13;
+	let redondeado = total.toFixed(4);
     $("#nuevoPrecioVentaProducto1").val(redondeado);
 }
 
