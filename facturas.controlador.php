@@ -182,7 +182,28 @@ class ControladorFacturas{
 				$empresarial = ControladorClientes::ctrMostrarEmpresas($item, $valor, $orden);
 
 				// Obtener el valor actual de numeroControlGeneral
-				$numeroControlGeneral = $empresarial["numeroControlGeneral"];
+				$numeroControlGeneral = "";
+				if($_POST["tipoDte"]  == "01"){
+					$numeroControlGeneral = $empresarial["numeroControl01"];
+				}
+				if($_POST["tipoDte"]  == "03"){
+					$numeroControlGeneral = $empresarial["numeroControl03"];
+				}
+				if($_POST["tipoDte"]  == "04"){
+					$numeroControlGeneral = $empresarial["numeroControl04"];
+				}
+				if($_POST["tipoDte"]  == "05"){
+					$numeroControlGeneral = $empresarial["numeroControl05"];
+				}
+				if($_POST["tipoDte"]  == "06"){
+					$numeroControlGeneral = $empresarial["numeroControl06"];
+				}
+				if($_POST["tipoDte"]  == "11"){
+					$numeroControlGeneral = $empresarial["numeroControl11"];
+				}
+				if($_POST["tipoDte"]  == "14"){
+					$numeroControlGeneral = $empresarial["numeroControl14"];
+				}
 
 				// Generar la parte aleatoria de 8 caracteres (A-Z, 0-9)
 				$parteAleatoria = 'S001P001';
@@ -242,7 +263,28 @@ class ControladorFacturas{
 				}
 			
 				$tabla = "emisor";
-				$item1 = "numeroControlGeneral";
+				$item1 = "";
+				if($_POST["tipoDte"]  == "01"){
+					$item1 = "numeroControl01";
+				}
+				if($_POST["tipoDte"]  == "03"){
+					$item1 = "numeroControl03";
+				}
+				if($_POST["tipoDte"]  == "04"){
+					$item1 = "numeroControl04";
+				}
+				if($_POST["tipoDte"]  == "05"){
+					$item1 = "numeroControl05";
+				}
+				if($_POST["tipoDte"]  == "06"){
+					$item1 = "numeroControl06";
+				}
+				if($_POST["tipoDte"]  == "11"){
+					$item1 = "numeroControl11";
+				}
+				if($_POST["tipoDte"]  == "14"){
+					$item1 = "numeroControl14";
+				}
 				$valor1 = $numeroControl;
 				$item2 = "id";
 				$valor2 = "1";
@@ -475,7 +517,28 @@ class ControladorFacturas{
 				$empresarial = ControladorClientes::ctrMostrarEmpresas($item, $valor, $orden);
 
 				// Obtener el valor actual de numeroControlGeneral
-				$numeroControlGeneral = $empresarial["numeroControlGeneral"];
+				$numeroControlGeneral = "";
+				if($_POST["tipoDte"]  == "01"){
+					$numeroControlGeneral = $empresarial["numeroControl01"];
+				}
+				if($_POST["tipoDte"]  == "03"){
+					$numeroControlGeneral = $empresarial["numeroControl03"];
+				}
+				if($_POST["tipoDte"]  == "04"){
+					$numeroControlGeneral = $empresarial["numeroControl04"];
+				}
+				if($_POST["tipoDte"]  == "05"){
+					$numeroControlGeneral = $empresarial["numeroControl05"];
+				}
+				if($_POST["tipoDte"]  == "06"){
+					$numeroControlGeneral = $empresarial["numeroControl06"];
+				}
+				if($_POST["tipoDte"]  == "11"){
+					$numeroControlGeneral = $empresarial["numeroControl11"];
+				}
+				if($_POST["tipoDte"]  == "14"){
+					$numeroControlGeneral = $empresarial["numeroControl14"];
+				}
 
 				// Generar la parte aleatoria de 8 caracteres (A-Z, 0-9)
 				$parteAleatoria = 'S001P001';
@@ -536,7 +599,28 @@ class ControladorFacturas{
 				}
 			
 				$tabla = "emisor";
-				$item1 = "numeroControlGeneral";
+				$item1 = "";
+				if($_POST["tipoDte"]  == "01"){
+					$item1 = "numeroControl01";
+				}
+				if($_POST["tipoDte"]  == "03"){
+					$item1 = "numeroControl03";
+				}
+				if($_POST["tipoDte"]  == "04"){
+					$item1 = "numeroControl04";
+				}
+				if($_POST["tipoDte"]  == "05"){
+					$item1 = "numeroControl05";
+				}
+				if($_POST["tipoDte"]  == "06"){
+					$item1 = "numeroControl06";
+				}
+				if($_POST["tipoDte"]  == "11"){
+					$item1 = "numeroControl11";
+				}
+				if($_POST["tipoDte"]  == "14"){
+					$item1 = "numeroControl14";
+				}
 				$valor1 = $numeroControl;
 				$item2 = "id";
 				$valor2 = "1";
@@ -922,7 +1006,28 @@ class ControladorFacturas{
 				$empresarial = ControladorClientes::ctrMostrarEmpresas($item, $valor, $orden);
 
 				// Obtener el valor actual de numeroControlGeneral
-				$numeroControlGeneral = $empresarial["numeroControlGeneral"];
+				$numeroControlGeneral = "";
+				if($_POST["tipoDte"]  == "01"){
+					$numeroControlGeneral = $empresarial["numeroControl01"];
+				}
+				if($_POST["tipoDte"]  == "03"){
+					$numeroControlGeneral = $empresarial["numeroControl03"];
+				}
+				if($_POST["tipoDte"]  == "04"){
+					$numeroControlGeneral = $empresarial["numeroControl04"];
+				}
+				if($_POST["tipoDte"]  == "05"){
+					$numeroControlGeneral = $empresarial["numeroControl05"];
+				}
+				if($_POST["tipoDte"]  == "06"){
+					$numeroControlGeneral = $empresarial["numeroControl06"];
+				}
+				if($_POST["tipoDte"]  == "11"){
+					$numeroControlGeneral = $empresarial["numeroControl11"];
+				}
+				if($_POST["tipoDte"]  == "14"){
+					$numeroControlGeneral = $empresarial["numeroControl14"];
+				}
 
 				// Generar la parte aleatoria de 8 caracteres (A-Z, 0-9)
 				$parteAleatoria = 'S001P001';
@@ -972,7 +1077,28 @@ class ControladorFacturas{
 				}
 			
 				$tabla = "emisor";
-				$item1 = "numeroControlGeneral";
+				$item1 = "";
+				if($_POST["tipoDte"]  == "01"){
+					$item1 = "numeroControl01";
+				}
+				if($_POST["tipoDte"]  == "03"){
+					$item1 = "numeroControl03";
+				}
+				if($_POST["tipoDte"]  == "04"){
+					$item1 = "numeroControl04";
+				}
+				if($_POST["tipoDte"]  == "05"){
+					$item1 = "numeroControl05";
+				}
+				if($_POST["tipoDte"]  == "06"){
+					$item1 = "numeroControl06";
+				}
+				if($_POST["tipoDte"]  == "11"){
+					$item1 = "numeroControl11";
+				}
+				if($_POST["tipoDte"]  == "14"){
+					$item1 = "numeroControl14";
+				}
 				$valor1 = $numeroControl;
 				$item2 = "id";
 				$valor2 = "1";
@@ -1134,7 +1260,28 @@ class ControladorFacturas{
 				$empresarial = ControladorClientes::ctrMostrarEmpresas($item, $valor, $orden);
 
 				// Obtener el valor actual de numeroControlGeneral
-				$numeroControlGeneral = $empresarial["numeroControlGeneral"];
+				$numeroControlGeneral = "";
+				if($_POST["tipoDte"]  == "01"){
+					$numeroControlGeneral = $empresarial["numeroControl01"];
+				}
+				if($_POST["tipoDte"]  == "03"){
+					$numeroControlGeneral = $empresarial["numeroControl03"];
+				}
+				if($_POST["tipoDte"]  == "04"){
+					$numeroControlGeneral = $empresarial["numeroControl04"];
+				}
+				if($_POST["tipoDte"]  == "05"){
+					$numeroControlGeneral = $empresarial["numeroControl05"];
+				}
+				if($_POST["tipoDte"]  == "06"){
+					$numeroControlGeneral = $empresarial["numeroControl06"];
+				}
+				if($_POST["tipoDte"]  == "11"){
+					$numeroControlGeneral = $empresarial["numeroControl11"];
+				}
+				if($_POST["tipoDte"]  == "14"){
+					$numeroControlGeneral = $empresarial["numeroControl14"];
+				}
 
 				// Generar la parte aleatoria de 8 caracteres (A-Z, 0-9)
 				$parteAleatoria = 'S001P001';
@@ -1201,7 +1348,28 @@ class ControladorFacturas{
 				}
 			
 				$tabla = "emisor";
-				$item1 = "numeroControlGeneral";
+				$item1 = "";
+				if($_POST["tipoDte"]  == "01"){
+					$item1 = "numeroControl01";
+				}
+				if($_POST["tipoDte"]  == "03"){
+					$item1 = "numeroControl03";
+				}
+				if($_POST["tipoDte"]  == "04"){
+					$item1 = "numeroControl04";
+				}
+				if($_POST["tipoDte"]  == "05"){
+					$item1 = "numeroControl05";
+				}
+				if($_POST["tipoDte"]  == "06"){
+					$item1 = "numeroControl06";
+				}
+				if($_POST["tipoDte"]  == "11"){
+					$item1 = "numeroControl11";
+				}
+				if($_POST["tipoDte"]  == "14"){
+					$item1 = "numeroControl14";
+				}
 				$valor1 = $numeroControl;
 				$item2 = "id";
 				$valor2 = "1";
